@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daughter's Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1 {
+            background-color: #f3f3f3;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Daughter's Daily Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>6:30 am</td>
+                <td>Wake up</td>
+            </tr>
+            <tr>
+                <td>6:45 am</td>
+                <td>Morning routine (brush teeth, wash face, get dressed)</td>
+            </tr>
+            <tr>
+                <td>7:00 am</td>
+                <td>Breakfast</td>
+            </tr>
+            <tr>
+                <td>7:30 am</td>
+                <td>Morning reflection and goal setting (journal or discuss with a family member)</td>
+            </tr>
+            <tr>
+                <td>8:00 am</td>
+                <td>School (assuming in-person classes)</td>
+            </tr>
+            <tr>
+                <td>3:00 pm</td>
+                <td>After-school snack</td>
+            </tr>
+            <tr>
+                <td>3:30 pm</td>
+                <td>Homework and study time</td>
+            </tr>
+            <tr>
+                <td>5:00 pm</td>
+                <td>Extracurricular activity (e.g., volunteering, debate club, sports, arts)</td>
+            </tr>
+            <tr>
+                <td>6:30 pm</td>
+                <td>Dinner with family (encourage conversation)</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</body>
+</html>
