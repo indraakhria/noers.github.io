@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Daughter's Schedule</title>
+    <title>My Daughter's Weekly Schedule</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            background: url('https://www.w3schools.com/w3images/workbench.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
         }
         h1 {
-            background-color: #f3f3f3;
+            background-color: rgba(0, 0, 0, 0.7);
             padding: 10px;
         }
         table {
@@ -21,60 +24,107 @@
             padding: 10px;
             border: 1px solid #ccc;
             text-align: left;
+            background-color: rgba(0, 0, 0, 0.7);
         }
         th {
-            background-color: #f3f3f3;
+            background-color: rgba(0, 0, 0, 0.9);
         }
     </style>
 </head>
 <body>
-    <h1>My Daughter's Daily Schedule</h1>
+    <h1>My Daughter's Weekly Schedule</h1>
     <table>
         <thead>
             <tr>
                 <th>Time</th>
-                <th>Activity</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
             </tr>
         </thead>
         <tbody>
             <tr>
+                <td>4:00 am</td>
+                <td colspan="7">Wake up</td>
+            </tr>
+            <tr>
+                <td>4:15 am</td>
+                <td colspan="5">Morning routine (brush teeth, wash face, get dressed)</td>
+                <td colspan="2" rowspan="2">Holiday</td>
+            </tr>
+            <tr>
+                <td>4:30 am</td>
+                <td colspan="5">Breakfast</td>
+            </tr>
+            <tr>
+                <td>5:00 am</td>
+                <td colspan="5">Study time</td>
+                <td colspan="2" rowspan="2">Holiday</td>
+            </tr>
+            <tr>
                 <td>6:30 am</td>
-                <td>Wake up</td>
+                <td colspan="5">Break</td>
             </tr>
             <tr>
                 <td>6:45 am</td>
-                <td>Morning routine (brush teeth, wash face, get dressed)</td>
+                <td colspan="5">Study time</td>
+                <td colspan="2" rowspan="2">Holiday</td>
             </tr>
             <tr>
-                <td>7:00 am</td>
-                <td>Breakfast</td>
+                <td>8:15 am</td>
+                <td colspan="5">Break</td>
             </tr>
             <tr>
-                <td>7:30 am</td>
-                <td>Morning reflection and goal setting (journal or discuss with a family member)</td>
-            </tr>
-            <tr>
-                <td>8:00 am</td>
-                <td>School (assuming in-person classes)</td>
+                <td>8:30 am</td>
+                <td colspan="5">School (assuming in-person classes)</td>
+                <td colspan="2" rowspan="2">Holiday</td>
             </tr>
             <tr>
                 <td>3:00 pm</td>
-                <td>After-school snack</td>
+                <td colspan="5">After-school snack</td>
             </tr>
             <tr>
                 <td>3:30 pm</td>
-                <td>Homework and study time</td>
-            </tr>
-            <tr>
-                <td>5:00 pm</td>
-                <td>Extracurricular activity (e.g., volunteering, debate club, sports, arts)</td>
-            </tr>
-            <tr>
-                <td>6:30 pm</td>
-                <td>Dinner with family (encourage conversation)</td>
-            </tr>
-            <!-- Add more rows as needed -->
-        </tbody>
-    </table>
+                <td colspan="5">
+<tr>
+    <td>3:30 pm</td>
+    <td colspan="5">Homework and study time</td>
+    <td colspan="2" rowspan="2">Holiday</td>
+</tr>
+<tr>
+    <td>5:00 pm</td>
+    <td colspan="5">Break</td>
+</tr>
+<tr>
+    <td>5:15 pm</td>
+    <td>Study time</td>
+    <td rowspan="2">Taekwondo class</td>
+    <td>Study time</td>
+    <td>Study time</td>
+    <td rowspan="2">Taekwondo class</td>
+    <td colspan="2" rowspan="2">Holiday</td>
+</tr>
+<tr>
+    <td>6:45 pm</td>
+    <td>Study time</td>
+    <td>Study time</td>
+    <td>Study time</td>
+</tr>
+<tr>
+    <td>8:00 pm</td>
+    <td colspan="5">Free time</td>
+    <td colspan="2" rowspan="2">Holiday</td>
+</tr>
+<tr>
+    <td>9:00 pm</td>
+    <td colspan="7">Sleep</td>
+</tr>
+<!-- Add more rows as needed -->
+</tbody>
+</table>
 </body>
 </html>
