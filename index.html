@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Daughter's Weekly Schedule</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/1vKzU3RS07hmbL8OM3lKeg6zQ2g9+3hGTQe6+g" crossorigin="anonymous">
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background: url('https://www.w3schools.com/w3images/workbench.jpg') no-repeat center center fixed;
+            background: url('https://wallpapercave.com/wp/wp1838975.jpg') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
         h1 {
             background-color: rgba(0, 0, 0, 0.7);
             padding: 10px;
+            border-radius: 10px;
         }
         table {
             width: 100%;
-            border-collapse: collapse;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
         }
         th, td {
             padding: 10px;
@@ -36,7 +42,7 @@
     <table>
         <thead>
             <tr>
-                <th>Time</th>
+                <th><i class="far fa-clock"></i></th>
                 <th>Monday</th>
                 <th>Tuesday</th>
                 <th>Wednesday</th>
@@ -47,6 +53,7 @@
             </tr>
         </thead>
         <tbody>
+
             <tr>
                 <td>4:00 am</td>
                 <td colspan="7">Wake up</td>
@@ -125,6 +132,6 @@
 </tr>
 <!-- Add more rows as needed -->
 </tbody>
-</table>
+    </table>
 </body>
 </html>
